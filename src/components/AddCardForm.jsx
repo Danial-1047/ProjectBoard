@@ -21,7 +21,7 @@ function AddCardForm({ status, onAdd }) {
   if (!isOpen) {
     return (
       <button className="add-btn" onClick={() => setIsOpen(true)}>
-        + Add a card
+        <span className="add-icon">+</span> Add a card
       </button>
     );
   }
